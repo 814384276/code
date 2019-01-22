@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#nav {
+    width: 1100px;
+    height: 63px;
+    background: #f2f2f2;
+}
+
+.logo {
+    float: left;
+}
+#nav .nav {
+    width: 810px;
+}
+
+#nav  ul li {
+    margin-right: 50px;
+    float: right;
+    line-height: 63px;
+    color: rgb(0,0,0,0.5)
+}
+
+#banner {
+    height: 423px;
+    background-image: url("../images/banner1.png");
+}
+
+#ser > div {
+    float: left;
+}
+
+#ser .services {
+    width: 560px;
+    height: 334px;
+    background: black;
+}
+
+#ser .case {
+    width: 540px;
+    height: 334px;
+    background: RED;
+}
+
+#new {
+    width: 1100px;
+    overflow: hidden;
+    clear: both;
+    
+}
+
+#new > div {
+    float: left;
+}
+
+
+#new .we {
+    width: 300px;
+    height: 250px;
+    background: pink;
+}
+
+#new .new {
+    width: 300px;
+    height: 250x;
+    background: rgb(98, 123, 213);
+}
+
+#new .youhui {
+    width: 400px;
+    height: 250x;
+    background: rgb(98, 123, 213);
+}
+
+#link {
+    clear: both;
+    width: 1100px;
+    height: 60px;
+    background: rgb(32, 222, 87);
+}
+
+#footer {
+    width: 1100px;
+    height: 288px;
+    background: #000000;
+}

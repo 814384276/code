@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+    text-decoration: none;
+}
+#wolong {
+    width: 999px;
+    height: 1497px;
+    background: #fff;
+    margin: 0 auto;
+}
+#wolong #wheader {
+    width: 999px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+#wolong #wnav {
+    width: 999px;
+    height: 60px;
+    background: #323232;
+}
+#wolong #wbanner {
+    width: 999px;
+    height: 463px;
+}
+#wolong #wmain {
+    width: 999px;
+    height: 544px;
+    /* background: pink; */
+   overflow: hidden;
+}
+#wolong #wlink {
+    clear: both;
+    width: 999px;
+    height: 250px;
+    background: rgba(0, 0,0, 0.2);
+}
+#wolong #wfooter {
+    clear: both;
+    width: 999px;
+    height: 80px;
+    background: rgb(84, 23, 123)
+    
+}
+#wheader .logo, #wheader .input1 {
+    float: left;
+}
+#wheader .input1 {
+    /* width: 228px;
+    height: 28px; */
+    /* background: #f1f1f1; */
+    position: absolute;
+    right: 10px;
+    line-height: 100px;
+}
+#wheader .input1 .l {
+   margin-right: 50px;
+}
+/* 导航条 */
+#wnav ul {
+    width: 999px;
+    height: 60px;
+    overflow: hidden;
+}
+#wnav ul li {
+    float: left;
+    list-style: none; 
+    border-right: 1px solid #fff;
+}
+#wnav ul li:last-child {
+    border-right: 0;
+}
+#wnav ul li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 20px;
+    width: 123px;
+    height: 60px;
+}
+/* wmian */
+#wmain .wmain1>div {
+    float: left;
+}
+#wmain .wmain1 .zixun {
+    width: 500px;
+    height: 250px;
+    background:rgb(21,13,543);
+}
+#wmain .wmain1 .jieshao {
+    width: 240px;
+    height: 250px;
+    background: rgb(111,222,212);
+}
+#wmain .wmain1 .rencai {
+    width: 260px;
+    height: 250px;
+}
+#wmain .wmain2 {
+    overflow: hidden;
+}
+#wmain .wmain2>div {
+    float: left;
+    width: 210px;
+    height: 190px;
+    margin: 20px;
+}
+#wmain .wmain2>div:nth-child(1) {
+     background: rgb(0 ,13,222);
+}
+#wmain .wmain2>div:nth-child(2) {
+    background: rgb(13,212,65);
+}
+#wmain .wmain2>div:nth-child(3) {
+    background: rgb(45,54,211);
+}
+#wmain .wmain2>div:nth-child(4) {
+    background: rgb(98, 234, 95);
+}
